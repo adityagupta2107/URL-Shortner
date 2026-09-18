@@ -1,0 +1,5 @@
+React Frontend + Node Backend + DataBase
+
+================ Work ==================
+
+User cone on frontend -> Said this is my URL -> Make it smaller -> React send data to Node -> Node Generate a Random ID -> And save this On DataBase 

@@ -1,0 +1,51 @@
+Features :
+    -> URL shorting
+    -> Redirecting
+    -> Curtom URL
+    -> User SignUP
+    -> Analytics
+
+===============================================
+ Folder Structure :
+ 
+        server/
+        │
+        ├── src/
+        │   ├── config/
+        │   │   ├── db.js
+        │   │   └── env.js
+        │   │
+        │   ├── controllers/
+        │   │   ├── auth.controller.js
+        │   │   ├── user.controller.js
+        │   │   └── product.controller.js
+        │   │
+        │   ├── models/
+        │   │   ├── User.js
+        │   │   ├── Product.js
+        │   │   └── Order.js
+        │   │
+        │   ├── routes/
+        │   │   ├── auth.routes.js
+        │   │   ├── user.routes.js
+        │   │   └── product.routes.js
+        │   │
+        │   ├── middleware/
+        │   │   ├── auth.js
+        │   │   ├── errorHandler.js
+        │   │   └── validate.js
+        │   │
+        │   ├── services/
+        │   │   ├── auth.service.js
+        │   │   └── email.service.js
+        │   │
+        │   ├── utils/
+        │   │   ├── jwt.js
+        │   │   └── logger.js
+        │   │
+        │   ├── app.js
+        │   └── server.js
+        │
+        ├── .env
+        ├── package.json
+        └── README.md
